@@ -1,0 +1,103 @@
+{
+    "unit_cell": {
+        "path": "xyz_files/cell.xyz"
+    },
+
+    "molecules": [{
+        "name": "DTDPP",
+        "path": "xyz_files/DTDPP.xyz",
+        "n_copies": 2,
+        "deformation": [{
+                "name": "def_1",
+                "type": "free_end",
+                "axis_indices": [5,7],
+                "atom_indices": [7,8,9,10,11,12,13,14]
+            }, {
+                "name": "def_2",
+                "type": "free_end",
+                "axis_indices": [19,21], 
+                "atom_indices": [21,22,23,24,25,26,27,28]
+            }
+        ]
+    }, {
+        "name": "DPDPP",
+        "path": "xyz_files/DPDPP.xyz",
+        "n_copies": 2,
+        "deformation": [{
+                "name": "def_1",
+                "type": "around_axis",
+                "axis_indices": [2,11],
+                "atom_indices": [11,12,13,14,15,16,17,18,19,20,21]
+            }, {
+                "name": "def_2",
+                "type": "around_axis",
+                "axis_indices": [8,22],
+                "atom_indices": [22,23,24,25,26,27,28,29,30,31,32]
+            }
+        ]
+    }],
+
+    "random_seed": 1,
+
+    "n_cycles": 3,
+    "scatter": {
+        "n_trials": 16,
+        "translate_2D": true,
+        "translate_e3": false,
+        "rotate_e3": true,
+        "rotate_3D": false,
+        "deform": false
+    },
+    "stages": [
+        {
+            "name": "planar",
+            "n_loops": 20,
+            "n_trials": 2,
+            "bind": {
+                "DTDPP": ["rotate_3D", "rotate_e3"]
+            },
+            "params": {
+                "translate_2D": 0.5,
+                "translate_e3": 0.1,
+                "rotate_e3": 0.1,
+                "rotate_3D": 0.25,
+                "DTDPP": {
+                    "translate_e3": 1.0
+                }
+            }
+        }, {
+            "name": "deform",
+            "n_loops": 20,
+            "n_trials": 2,
+            "bind": {
+                "DTDPP": ["rotate_3D", "rotate_e3"]
+            },
+            "params": {
+                "translate_2D": 0.5,
+                "translate_e3": 0.1,
+                "rotate_e3": 0.1,
+                "rotate_3D": 0.25,
+                "DTDPP": {
+                    "translate_e3": 1.0
+                }
+            }
+        }
+    ],
+    "results": {
+        "folder": "results_2/",
+        ".xyz": {
+            "cycle_min_periodic": true,
+            "cycle_min_cell": true,
+            "stages_min_periodic": true,
+            "stages_min_cell": true,
+            "all_min_periodic": true,
+            "all_min_cell": true
+        },
+        ".txt": {
+            "cycle_min": true,
+            "stages_min": true,
+            "all_min": true
+        }
+    }
+
+}

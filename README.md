@@ -1,5 +1,13 @@
 # PairPotMCinator
 
+### Table of Contents
+
+- [Dependencies](#dependencies)
+- [Installing this project](#installing-this-project)
+- [Example walkthrough](#example-walkthrough)
+- [Editing the source code](#editing-the-source-code)
+
+
 ## Dependencies
 
 ### nlohmann
@@ -92,22 +100,42 @@ install it
 ```
 sudo make install
 ```
-Then cd to wherever you have your .json, and run:
+
+## Running the PairPotMCinator
+
+Then cd to wherever you have your configuration .json file, and run
 ```
 PairPotMCinator <your_json_file>
 ```
 
-An example .json files are located in the results/artificial/ folder of this project.
+A few example .json files are located in the results/artificial/ folder of this project.
+
+To run one of them, just cd there
+```
+cd results/artificial
+```
+and run it
+```
+PairPotMCinator config_simple.json
+```
+
+This will create a results directory `results_simple/` - storing the results.
+
+For information regarding the structure of the json file and the storing of the results, refer to the `reference.md` file located in the root of this project.
 
 
 
-## Hacking on the source code
+## Editing the source code
 
 a) Make your changes to the source code.
 
 b) Recompile the source code:
 
-cd to the build/ directory, then run
+cd to the build/ directory
+```
+cd build/
+```
+then run
 ```
 cmake --build .
 sudo make install

@@ -1,0 +1,8 @@
+
+cycle: 1, scatter | en: 4372.24
+cycle: 1, stage: 1 | en: -12.0548
+cycle: 1, stage: 2 | en: -12.0548
+
+cycle: 2, scatter | en: 7078.8
+cycle: 2, stage: 1 | en: 1295
+cycle: 2, stage: 2 | en: 19.9658
