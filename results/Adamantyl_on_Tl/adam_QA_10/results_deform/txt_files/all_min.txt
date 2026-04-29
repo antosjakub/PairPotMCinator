@@ -1,0 +1,131 @@
+
+
+------------------- CYCLE: 1
+-- SCATTER
+scatter | en: -5.78879
+-- STAGE 1
+loop: 3 | en_min: -5.8781
+loop: 4 | en_min: -6.66039
+loop: 30 | en_min: -6.72557
+loop: 41 | en_min: -6.92844
+loop: 45 | en_min: -7.27071
+loop: 333 | en_min: -7.27631
+loop: 337 | en_min: -7.53684
+loop: 361 | en_min: -7.63342
+loop: 367 | en_min: -7.8012
+loop: 399 | en_min: -7.99619
+loop: 458 | en_min: -8.32613
+cycle_min: -8.32613
+
+
+------------------- CYCLE: 2
+-- SCATTER
+scatter | en: -5.44929
+-- STAGE 1
+loop: 5 | en_min: -5.52603
+loop: 13 | en_min: -5.82408
+loop: 32 | en_min: -6.06748
+loop: 34 | en_min: -6.10686
+loop: 35 | en_min: -6.12316
+loop: 36 | en_min: -6.33939
+loop: 44 | en_min: -6.50866
+loop: 45 | en_min: -7.06411
+loop: 47 | en_min: -7.10062
+loop: 52 | en_min: -7.34283
+loop: 65 | en_min: -7.49362
+loop: 95 | en_min: -7.60936
+loop: 99 | en_min: -8.09668
+loop: 923 | en_min: -8.1292
+cycle_min: -8.1292
+
+
+------------------- CYCLE: 3
+-- SCATTER
+scatter | en: -4.01605
+-- STAGE 1
+loop: 2 | en_min: -5.57327
+loop: 16 | en_min: -5.57745
+loop: 17 | en_min: -6.04353
+loop: 32 | en_min: -6.28663
+loop: 39 | en_min: -6.40687
+loop: 82 | en_min: -6.45113
+loop: 192 | en_min: -6.45973
+loop: 303 | en_min: -6.53437
+loop: 650 | en_min: -6.58497
+loop: 731 | en_min: -6.72688
+loop: 762 | en_min: -6.8351
+loop: 770 | en_min: -6.90943
+loop: 775 | en_min: -6.93198
+loop: 784 | en_min: -6.94765
+loop: 810 | en_min: -7.02696
+loop: 833 | en_min: -7.16444
+loop: 882 | en_min: -7.26775
+cycle_min: -7.26775
+
+
+------------------- CYCLE: 4
+-- SCATTER
+scatter | en: -4.90351
+-- STAGE 1
+loop: 1 | en_min: -5.17534
+loop: 2 | en_min: -5.54207
+loop: 3 | en_min: -6.11775
+loop: 4 | en_min: -6.13615
+loop: 5 | en_min: -6.45715
+loop: 6 | en_min: -6.55029
+loop: 8 | en_min: -6.67499
+loop: 13 | en_min: -6.88189
+loop: 16 | en_min: -7.00869
+loop: 17 | en_min: -7.10627
+loop: 38 | en_min: -7.16372
+loop: 44 | en_min: -7.30554
+loop: 56 | en_min: -7.36752
+loop: 57 | en_min: -7.58581
+loop: 60 | en_min: -7.66762
+loop: 80 | en_min: -7.72048
+loop: 87 | en_min: -7.88605
+loop: 107 | en_min: -7.90343
+loop: 110 | en_min: -7.95124
+loop: 128 | en_min: -8.25418
+loop: 211 | en_min: -8.33028
+loop: 225 | en_min: -8.42143
+loop: 232 | en_min: -8.58113
+loop: 246 | en_min: -8.59317
+loop: 306 | en_min: -8.78556
+loop: 312 | en_min: -8.88695
+loop: 380 | en_min: -8.90318
+loop: 388 | en_min: -9.10704
+loop: 433 | en_min: -9.24817
+loop: 435 | en_min: -9.28262
+loop: 468 | en_min: -9.2871
+loop: 629 | en_min: -9.32241
+cycle_min: -9.32241
+
+
+------------------- CYCLE: 5
+-- SCATTER
+scatter | en: -5.79769
+-- STAGE 1
+loop: 30 | en_min: -5.81655
+loop: 33 | en_min: -6.00008
+loop: 160 | en_min: -6.11417
+loop: 164 | en_min: -6.17225
+loop: 173 | en_min: -6.2029
+loop: 224 | en_min: -6.4626
+loop: 225 | en_min: -6.89158
+loop: 252 | en_min: -6.91507
+loop: 258 | en_min: -7.0094
+loop: 529 | en_min: -7.11126
+loop: 582 | en_min: -7.18832
+cycle_min: -7.18832
+
+
+RESULTS:
+1: -8.32613
+2: -8.1292
+3: -7.26775
+4: -9.32241
+5: -7.18832
+
+TOTAL MIN:
+4: -9.32241

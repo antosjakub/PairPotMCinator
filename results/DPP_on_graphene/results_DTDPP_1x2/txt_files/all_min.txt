@@ -1,0 +1,160 @@
+
+cycle: 1, scatter | en: -3.31712
+cycle: 1  -----------------------
+cycle: 1, stage: 1, loop: 1 | en: -3.35328
+cycle: 1, stage: 1, loop: 2 | en: -4.56226
+cycle: 1, stage: 1, loop: 5 | en: -4.72143
+cycle: 1, stage: 1, loop: 8 | en: -4.86183
+cycle: 1, stage: 1, loop: 9 | en: -5.06923
+cycle: 1, stage: 1, loop: 51 | en: -5.14663
+cycle: 1, stage: 1, loop: 113 | en: -5.1718
+cycle: 1  -----------------------
+cycle: 1, stage: 2, loop: 45 | en: -5.2068
+cycle: 1  -----------------------
+cycle: 1, cycle_min: -5.2068
+
+cycle: 2, scatter | en: -4.13343
+cycle: 2  -----------------------
+cycle: 2, stage: 1, loop: 1 | en: -4.26417
+cycle: 2, stage: 1, loop: 2 | en: -4.3202
+cycle: 2, stage: 1, loop: 3 | en: -4.62661
+cycle: 2, stage: 1, loop: 4 | en: -4.83318
+cycle: 2, stage: 1, loop: 8 | en: -5.08002
+cycle: 2, stage: 1, loop: 71 | en: -5.10961
+cycle: 2, stage: 1, loop: 94 | en: -5.17368
+cycle: 2, stage: 1, loop: 99 | en: -5.17406
+cycle: 2  -----------------------
+cycle: 2, stage: 2, loop: 107 | en: -5.18207
+cycle: 2, stage: 2, loop: 168 | en: -5.198
+cycle: 2  -----------------------
+cycle: 2, cycle_min: -5.198
+
+cycle: 3, scatter | en: 16.0706
+cycle: 3  -----------------------
+cycle: 3, stage: 1, loop: 2 | en: 1.95062
+cycle: 3, stage: 1, loop: 17 | en: 1.3625
+cycle: 3, stage: 1, loop: 18 | en: 0.901896
+cycle: 3, stage: 1, loop: 140 | en: 0.469415
+cycle: 3  -----------------------
+cycle: 3, stage: 2, loop: 3 | en: 0.224789
+cycle: 3, stage: 2, loop: 4 | en: -0.610805
+cycle: 3, stage: 2, loop: 5 | en: -1.47886
+cycle: 3, stage: 2, loop: 6 | en: -1.95037
+cycle: 3, stage: 2, loop: 7 | en: -2.72533
+cycle: 3, stage: 2, loop: 10 | en: -3.45429
+cycle: 3, stage: 2, loop: 17 | en: -3.54406
+cycle: 3, stage: 2, loop: 38 | en: -3.60021
+cycle: 3, stage: 2, loop: 61 | en: -3.68593
+cycle: 3, stage: 2, loop: 66 | en: -3.72407
+cycle: 3, stage: 2, loop: 69 | en: -3.79464
+cycle: 3, stage: 2, loop: 75 | en: -3.85303
+cycle: 3, stage: 2, loop: 78 | en: -3.90772
+cycle: 3, stage: 2, loop: 87 | en: -4.00344
+cycle: 3, stage: 2, loop: 97 | en: -4.07942
+cycle: 3, stage: 2, loop: 115 | en: -4.09398
+cycle: 3, stage: 2, loop: 116 | en: -4.22493
+cycle: 3, stage: 2, loop: 122 | en: -4.28128
+cycle: 3, stage: 2, loop: 200 | en: -4.30678
+cycle: 3, stage: 2, loop: 238 | en: -4.3275
+cycle: 3, stage: 2, loop: 254 | en: -4.39333
+cycle: 3, stage: 2, loop: 260 | en: -4.39847
+cycle: 3  -----------------------
+cycle: 3, cycle_min: -4.39847
+
+cycle: 4, scatter | en: 0.13843
+cycle: 4  -----------------------
+cycle: 4, stage: 1, loop: 1 | en: -3.12732
+cycle: 4, stage: 1, loop: 2 | en: -3.8783
+cycle: 4, stage: 1, loop: 3 | en: -4.31433
+cycle: 4, stage: 1, loop: 4 | en: -4.87858
+cycle: 4, stage: 1, loop: 6 | en: -4.882
+cycle: 4, stage: 1, loop: 7 | en: -4.89754
+cycle: 4, stage: 1, loop: 11 | en: -4.90031
+cycle: 4, stage: 1, loop: 13 | en: -5.32338
+cycle: 4  -----------------------
+cycle: 4  -----------------------
+cycle: 4, cycle_min: -5.32338
+
+cycle: 5, scatter | en: 8.79186
+cycle: 5  -----------------------
+cycle: 5, stage: 1, loop: 1 | en: -2.492
+cycle: 5, stage: 1, loop: 2 | en: -4.54482
+cycle: 5, stage: 1, loop: 4 | en: -4.60334
+cycle: 5, stage: 1, loop: 7 | en: -4.92264
+cycle: 5, stage: 1, loop: 10 | en: -5.42527
+cycle: 5, stage: 1, loop: 13 | en: -5.78683
+cycle: 5  -----------------------
+cycle: 5, stage: 2, loop: 237 | en: -5.86551
+cycle: 5  -----------------------
+cycle: 5, cycle_min: -5.86551
+
+cycle: 6, scatter | en: 2.05418
+cycle: 6  -----------------------
+cycle: 6, stage: 1, loop: 1 | en: -3.59577
+cycle: 6, stage: 1, loop: 2 | en: -3.82317
+cycle: 6, stage: 1, loop: 4 | en: -3.93276
+cycle: 6, stage: 1, loop: 10 | en: -3.98934
+cycle: 6, stage: 1, loop: 13 | en: -4.01501
+cycle: 6, stage: 1, loop: 14 | en: -4.41208
+cycle: 6, stage: 1, loop: 15 | en: -5.32336
+cycle: 6, stage: 1, loop: 16 | en: -5.37868
+cycle: 6, stage: 1, loop: 17 | en: -5.38101
+cycle: 6, stage: 1, loop: 18 | en: -5.56562
+cycle: 6, stage: 1, loop: 19 | en: -5.5781
+cycle: 6, stage: 1, loop: 22 | en: -5.73498
+cycle: 6  -----------------------
+cycle: 6, stage: 2, loop: 11 | en: -5.74639
+cycle: 6  -----------------------
+cycle: 6, cycle_min: -5.74639
+
+cycle: 7, scatter | en: 548.589
+cycle: 7  -----------------------
+cycle: 7, stage: 1, loop: 1 | en: -4.03548
+cycle: 7, stage: 1, loop: 2 | en: -4.21852
+cycle: 7, stage: 1, loop: 3 | en: -4.65832
+cycle: 7, stage: 1, loop: 5 | en: -5.02192
+cycle: 7, stage: 1, loop: 8 | en: -5.17571
+cycle: 7, stage: 1, loop: 146 | en: -5.20659
+cycle: 7  -----------------------
+cycle: 7  -----------------------
+cycle: 7, cycle_min: -5.20659
+
+cycle: 8, scatter | en: 153.064
+cycle: 8  -----------------------
+cycle: 8, stage: 1, loop: 2 | en: 30.6214
+cycle: 8, stage: 1, loop: 3 | en: -3.37952
+cycle: 8, stage: 1, loop: 4 | en: -4.37869
+cycle: 8, stage: 1, loop: 5 | en: -4.87789
+cycle: 8, stage: 1, loop: 8 | en: -4.92144
+cycle: 8, stage: 1, loop: 12 | en: -5.04633
+cycle: 8, stage: 1, loop: 13 | en: -5.16891
+cycle: 8  -----------------------
+cycle: 8, stage: 2, loop: 1 | en: -5.17341
+cycle: 8, stage: 2, loop: 51 | en: -5.20239
+cycle: 8, stage: 2, loop: 61 | en: -5.21303
+cycle: 8  -----------------------
+cycle: 8, cycle_min: -5.21303
+
+cycle: 9, scatter | en: 4.25121
+cycle: 9  -----------------------
+cycle: 9, stage: 1, loop: 1 | en: -3.55324
+cycle: 9, stage: 1, loop: 2 | en: -4.35733
+cycle: 9, stage: 1, loop: 3 | en: -5.1031
+cycle: 9, stage: 1, loop: 5 | en: -5.25399
+cycle: 9, stage: 1, loop: 7 | en: -5.43277
+cycle: 9, stage: 1, loop: 40 | en: -5.78669
+cycle: 9  -----------------------
+cycle: 9, stage: 2, loop: 168 | en: -5.81616
+cycle: 9  -----------------------
+cycle: 9, cycle_min: -5.81616
+
+cycle: 10, scatter | en: 9.8655
+cycle: 10  -----------------------
+cycle: 10, stage: 1, loop: 1 | en: -0.828404
+cycle: 10, stage: 1, loop: 2 | en: -3.76579
+cycle: 10, stage: 1, loop: 3 | en: -4.35784
+cycle: 10, stage: 1, loop: 62 | en: -4.43704
+cycle: 10  -----------------------
+cycle: 10, stage: 2, loop: 180 | en: -4.45456
+cycle: 10  -----------------------
+cycle: 10, cycle_min: -4.45456

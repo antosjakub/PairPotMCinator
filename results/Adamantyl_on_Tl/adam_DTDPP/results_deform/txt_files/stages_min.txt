@@ -1,0 +1,51 @@
+
+
+------------------- CYCLE: 1
+scatter  | en: 1.49888
+stage: 1 | en: -1.63582
+stage: 2 | en: -3.5794
+
+------------------- CYCLE: 2
+scatter  | en: 8.77201
+stage: 1 | en: -0.327704
+stage: 2 | en: -1.63431
+
+------------------- CYCLE: 3
+scatter  | en: 31.8467
+stage: 1 | en: 1.6403
+stage: 2 | en: -2.44886
+
+------------------- CYCLE: 4
+scatter  | en: 17.0079
+stage: 1 | en: 1.1928
+stage: 2 | en: -2.16207
+
+------------------- CYCLE: 5
+scatter  | en: 32.9968
+stage: 1 | en: 0.920937
+stage: 2 | en: -2.66751
+
+------------------- CYCLE: 6
+scatter  | en: -2.301
+stage: 1 | en: -2.301
+stage: 2 | en: -3.84097
+
+------------------- CYCLE: 7
+scatter  | en: -2.317
+stage: 1 | en: -2.317
+stage: 2 | en: -4.19376
+
+------------------- CYCLE: 8
+scatter  | en: -0.97438
+stage: 1 | en: -0.97438
+stage: 2 | en: -4.22656
+
+------------------- CYCLE: 9
+scatter  | en: 44.9082
+stage: 1 | en: 0.095922
+stage: 2 | en: -2.17598
+
+------------------- CYCLE: 10
+scatter  | en: -2.35437
+stage: 1 | en: -2.35437
+stage: 2 | en: -3.86776

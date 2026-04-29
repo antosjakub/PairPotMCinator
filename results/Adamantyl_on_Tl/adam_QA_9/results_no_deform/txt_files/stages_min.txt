@@ -1,0 +1,101 @@
+
+
+------------------- CYCLE: 1
+scatter  | en: -6.15828
+stage: 1 | en: -6.47353
+stage: 2 | en: -8.01996
+
+------------------- CYCLE: 2
+scatter  | en: -2.39913
+stage: 1 | en: -6.72044
+stage: 2 | en: -7.27408
+
+------------------- CYCLE: 3
+scatter  | en: 106.763
+stage: 1 | en: -6.49891
+stage: 2 | en: -8.28577
+
+------------------- CYCLE: 4
+scatter  | en: 16.1588
+stage: 1 | en: -6.78104
+stage: 2 | en: -7.61555
+
+------------------- CYCLE: 5
+scatter  | en: 149.586
+stage: 1 | en: -6.28627
+stage: 2 | en: -7.52662
+
+------------------- CYCLE: 6
+scatter  | en: -2.1545
+stage: 1 | en: -6.22108
+stage: 2 | en: -8.05474
+
+------------------- CYCLE: 7
+scatter  | en: 94.6399
+stage: 1 | en: -6.34951
+stage: 2 | en: -7.28166
+
+------------------- CYCLE: 8
+scatter  | en: 277.244
+stage: 1 | en: -6.23046
+stage: 2 | en: -7.1984
+
+------------------- CYCLE: 9
+scatter  | en: 28.4801
+stage: 1 | en: -6.34437
+stage: 2 | en: -8.93624
+
+------------------- CYCLE: 10
+scatter  | en: 56.6209
+stage: 1 | en: -6.2621
+stage: 2 | en: -8.05893
+
+------------------- CYCLE: 11
+scatter  | en: 0.0924168
+stage: 1 | en: -6.16322
+stage: 2 | en: -7.65173
+
+------------------- CYCLE: 12
+scatter  | en: 68.2202
+stage: 1 | en: -6.34522
+stage: 2 | en: -7.12965
+
+------------------- CYCLE: 13
+scatter  | en: -4.4392
+stage: 1 | en: -6.48789
+stage: 2 | en: -7.5002
+
+------------------- CYCLE: 14
+scatter  | en: 1.65052
+stage: 1 | en: -5.88349
+stage: 2 | en: -8.23975
+
+------------------- CYCLE: 15
+scatter  | en: 97.934
+stage: 1 | en: -6.69373
+stage: 2 | en: -8.19628
+
+------------------- CYCLE: 16
+scatter  | en: -2.72304
+stage: 1 | en: -6.67967
+stage: 2 | en: -7.40317
+
+------------------- CYCLE: 17
+scatter  | en: 4.41451
+stage: 1 | en: -6.34453
+stage: 2 | en: -7.48518
+
+------------------- CYCLE: 18
+scatter  | en: -4.87346
+stage: 1 | en: -6.33603
+stage: 2 | en: -7.44094
+
+------------------- CYCLE: 19
+scatter  | en: 456.066
+stage: 1 | en: -6.15559
+stage: 2 | en: -6.7868
+
+------------------- CYCLE: 20
+scatter  | en: -1.6788
+stage: 1 | en: -6.81436
+stage: 2 | en: -8.63536

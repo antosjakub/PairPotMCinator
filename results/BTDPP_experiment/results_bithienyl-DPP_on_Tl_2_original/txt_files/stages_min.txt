@@ -1,0 +1,121 @@
+
+
+------------------- CYCLE: 1
+init  | en: 37420.7
+stage: 1 | en: 187.067
+stage: 2 | en: -15.4754
+stage: 3 | en: -19.1038
+
+------------------- CYCLE: 2
+init  | en: 37420.7
+stage: 1 | en: 36.9837
+stage: 2 | en: -15.2792
+stage: 3 | en: -20.1255
+
+------------------- CYCLE: 3
+init  | en: 37420.7
+stage: 1 | en: 92.7807
+stage: 2 | en: -16.0795
+stage: 3 | en: -19.274
+
+------------------- CYCLE: 4
+init  | en: 37420.7
+stage: 1 | en: 154.241
+stage: 2 | en: -14.755
+stage: 3 | en: -19.0947
+
+------------------- CYCLE: 5
+init  | en: 37420.7
+stage: 1 | en: -11.3775
+stage: 2 | en: -17.3443
+stage: 3 | en: -19.6569
+
+------------------- CYCLE: 6
+init  | en: 37420.7
+stage: 1 | en: 282.781
+stage: 2 | en: -18.7831
+stage: 3 | en: -19.8259
+
+------------------- CYCLE: 7
+init  | en: 37420.7
+stage: 1 | en: 18.2077
+stage: 2 | en: -15.3733
+stage: 3 | en: -19.9444
+
+------------------- CYCLE: 8
+init  | en: 37420.7
+stage: 1 | en: 124.674
+stage: 2 | en: -18.0536
+stage: 3 | en: -18.754
+
+------------------- CYCLE: 9
+init  | en: 37420.7
+stage: 1 | en: 8.14587
+stage: 2 | en: -16.7892
+stage: 3 | en: -19.3884
+
+------------------- CYCLE: 10
+init  | en: 37420.7
+stage: 1 | en: 156.548
+stage: 2 | en: -16.6305
+stage: 3 | en: -19.6417
+
+------------------- CYCLE: 11
+init  | en: 37420.7
+stage: 1 | en: 62.9732
+stage: 2 | en: -17.5696
+stage: 3 | en: -20.1113
+
+------------------- CYCLE: 12
+init  | en: 37420.7
+stage: 1 | en: 20.5806
+stage: 2 | en: -12.9689
+stage: 3 | en: -19.9221
+
+------------------- CYCLE: 13
+init  | en: 37420.7
+stage: 1 | en: 45.852
+stage: 2 | en: -17.5912
+stage: 3 | en: -20.0375
+
+------------------- CYCLE: 14
+init  | en: 37420.7
+stage: 1 | en: 45.6633
+stage: 2 | en: -11.7853
+stage: 3 | en: -20.0653
+
+------------------- CYCLE: 15
+init  | en: 37420.7
+stage: 1 | en: 104.88
+stage: 2 | en: -15.6063
+stage: 3 | en: -16.2172
+
+------------------- CYCLE: 16
+init  | en: 37420.7
+stage: 1 | en: 136.309
+stage: 2 | en: -17.2449
+stage: 3 | en: -18.7326
+
+------------------- CYCLE: 17
+init  | en: 37420.7
+stage: 1 | en: 98.4293
+stage: 2 | en: -18.8672
+stage: 3 | en: -20.1029
+
+------------------- CYCLE: 18
+init  | en: 37420.7
+stage: 1 | en: 5.67035
+stage: 2 | en: -16.7887
+stage: 3 | en: -20.2365
+
+------------------- CYCLE: 19
+init  | en: 37420.7
+stage: 1 | en: 22.7358
+stage: 2 | en: -17.7892
+stage: 3 | en: -19.4701
+
+------------------- CYCLE: 20
+init  | en: 37420.7
+stage: 1 | en: 20.5865
+stage: 2 | en: -17.0389
+stage: 3 | en: -19.2102

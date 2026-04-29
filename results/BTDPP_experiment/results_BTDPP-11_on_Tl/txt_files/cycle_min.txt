@@ -1,0 +1,21 @@
+
+cycle: 1 | en: -19.2956
+cycle: 2 | en: -20.6847
+cycle: 3 | en: -18.9988
+cycle: 4 | en: -18.2191
+cycle: 5 | en: -20.131
+cycle: 6 | en: -19.4474
+cycle: 7 | en: -19.0742
+cycle: 8 | en: -19.8623
+cycle: 9 | en: -18.1966
+cycle: 10 | en: -20.0183
+cycle: 11 | en: -18.133
+cycle: 12 | en: -19.7763
+cycle: 13 | en: -18.6874
+cycle: 14 | en: -19.0051
+cycle: 15 | en: -18.8089
+cycle: 16 | en: -19.5885
+cycle: 17 | en: -19.6567
+cycle: 18 | en: -19.209
+cycle: 19 | en: -19.3896
+cycle: 20 | en: -19.3107

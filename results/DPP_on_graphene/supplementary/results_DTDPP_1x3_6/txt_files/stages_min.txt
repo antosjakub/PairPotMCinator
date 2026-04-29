@@ -1,0 +1,200 @@
+
+cycle: 1, scatter | en: 1417.27
+cycle: 1, stage: 1 | en: -7.56208
+cycle: 1, stage: 2 | en: -7.6331
+
+cycle: 2, scatter | en: 1160.31
+cycle: 2, stage: 1 | en: -7.54398
+cycle: 2, stage: 2 | en: -7.54398
+
+cycle: 3, scatter | en: 3656.49
+cycle: 3, stage: 1 | en: -7.28965
+cycle: 3, stage: 2 | en: -7.47837
+
+cycle: 4, scatter | en: 22.1718
+cycle: 4, stage: 1 | en: -7.26408
+cycle: 4, stage: 2 | en: -7.32296
+
+cycle: 5, scatter | en: 258.204
+cycle: 5, stage: 1 | en: -6.55317
+cycle: 5, stage: 2 | en: -6.59191
+
+cycle: 6, scatter | en: 713.67
+cycle: 6, stage: 1 | en: -7.44848
+cycle: 6, stage: 2 | en: -7.44848
+
+cycle: 7, scatter | en: 2997.22
+cycle: 7, stage: 1 | en: -7.59426
+cycle: 7, stage: 2 | en: -7.59717
+
+cycle: 8, scatter | en: 138.459
+cycle: 8, stage: 1 | en: -7.5146
+cycle: 8, stage: 2 | en: -7.5146
+
+cycle: 9, scatter | en: 1826.62
+cycle: 9, stage: 1 | en: -8.66744
+cycle: 9, stage: 2 | en: -8.86651
+
+cycle: 10, scatter | en: 546.552
+cycle: 10, stage: 1 | en: -7.13078
+cycle: 10, stage: 2 | en: -7.20085
+
+cycle: 11, scatter | en: 1425.09
+cycle: 11, stage: 1 | en: -7.21823
+cycle: 11, stage: 2 | en: -7.41538
+
+cycle: 12, scatter | en: 460.324
+cycle: 12, stage: 1 | en: -7.60928
+cycle: 12, stage: 2 | en: -7.64968
+
+cycle: 13, scatter | en: 39.1472
+cycle: 13, stage: 1 | en: -7.71747
+cycle: 13, stage: 2 | en: -7.71747
+
+cycle: 14, scatter | en: -2.04992
+cycle: 14, stage: 1 | en: -7.64561
+cycle: 14, stage: 2 | en: -7.64561
+
+cycle: 15, scatter | en: 25.2099
+cycle: 15, stage: 1 | en: -7.60581
+cycle: 15, stage: 2 | en: -7.60918
+
+cycle: 16, scatter | en: 11.5171
+cycle: 16, stage: 1 | en: -7.77537
+cycle: 16, stage: 2 | en: -7.78981
+
+cycle: 17, scatter | en: 491.15
+cycle: 17, stage: 1 | en: -6.73631
+cycle: 17, stage: 2 | en: -6.73631
+
+cycle: 18, scatter | en: 104.815
+cycle: 18, stage: 1 | en: -7.37473
+cycle: 18, stage: 2 | en: -7.37473
+
+cycle: 19, scatter | en: 1135.44
+cycle: 19, stage: 1 | en: -7.69601
+cycle: 19, stage: 2 | en: -7.69601
+
+cycle: 20, scatter | en: 396.816
+cycle: 20, stage: 1 | en: -8.04267
+cycle: 20, stage: 2 | en: -8.04267
+
+cycle: 21, scatter | en: 180.484
+cycle: 21, stage: 1 | en: -6.5935
+cycle: 21, stage: 2 | en: -6.67455
+
+cycle: 22, scatter | en: 1862.75
+cycle: 22, stage: 1 | en: -3.82119
+cycle: 22, stage: 2 | en: -6.12478
+
+cycle: 23, scatter | en: 4733.12
+cycle: 23, stage: 1 | en: -7.64377
+cycle: 23, stage: 2 | en: -7.64414
+
+cycle: 24, scatter | en: 93.6315
+cycle: 24, stage: 1 | en: -7.93067
+cycle: 24, stage: 2 | en: -8.01122
+
+cycle: 25, scatter | en: 451.628
+cycle: 25, stage: 1 | en: -7.20645
+cycle: 25, stage: 2 | en: -7.20645
+
+cycle: 26, scatter | en: 70.0191
+cycle: 26, stage: 1 | en: -7.61563
+cycle: 26, stage: 2 | en: -7.64167
+
+cycle: 27, scatter | en: 185.484
+cycle: 27, stage: 1 | en: -7.3118
+cycle: 27, stage: 2 | en: -7.3118
+
+cycle: 28, scatter | en: 509.396
+cycle: 28, stage: 1 | en: -7.82132
+cycle: 28, stage: 2 | en: -7.82132
+
+cycle: 29, scatter | en: 566.639
+cycle: 29, stage: 1 | en: -7.61326
+cycle: 29, stage: 2 | en: -7.61326
+
+cycle: 30, scatter | en: 917.057
+cycle: 30, stage: 1 | en: -7.7366
+cycle: 30, stage: 2 | en: -7.7366
+
+cycle: 31, scatter | en: 107.729
+cycle: 31, stage: 1 | en: -7.91199
+cycle: 31, stage: 2 | en: -7.93402
+
+cycle: 32, scatter | en: 367.757
+cycle: 32, stage: 1 | en: -8.11439
+cycle: 32, stage: 2 | en: -8.60163
+
+cycle: 33, scatter | en: 238.579
+cycle: 33, stage: 1 | en: -7.48006
+cycle: 33, stage: 2 | en: -7.48006
+
+cycle: 34, scatter | en: 2555.71
+cycle: 34, stage: 1 | en: -7.59811
+cycle: 34, stage: 2 | en: -7.61546
+
+cycle: 35, scatter | en: 230.357
+cycle: 35, stage: 1 | en: -6.8504
+cycle: 35, stage: 2 | en: -6.8504
+
+cycle: 36, scatter | en: 24.0779
+cycle: 36, stage: 1 | en: -8.58541
+cycle: 36, stage: 2 | en: -8.69495
+
+cycle: 37, scatter | en: 885.603
+cycle: 37, stage: 1 | en: -7.02195
+cycle: 37, stage: 2 | en: -7.19443
+
+cycle: 38, scatter | en: 998.061
+cycle: 38, stage: 1 | en: -7.99
+cycle: 38, stage: 2 | en: -7.99051
+
+cycle: 39, scatter | en: 2487.69
+cycle: 39, stage: 1 | en: -7.62734
+cycle: 39, stage: 2 | en: -7.70562
+
+cycle: 40, scatter | en: 155.057
+cycle: 40, stage: 1 | en: -7.27027
+cycle: 40, stage: 2 | en: -7.28265
+
+cycle: 41, scatter | en: 166.464
+cycle: 41, stage: 1 | en: -7.72447
+cycle: 41, stage: 2 | en: -7.76805
+
+cycle: 42, scatter | en: 194.632
+cycle: 42, stage: 1 | en: -7.7984
+cycle: 42, stage: 2 | en: -7.7984
+
+cycle: 43, scatter | en: 576.388
+cycle: 43, stage: 1 | en: -7.80037
+cycle: 43, stage: 2 | en: -7.80037
+
+cycle: 44, scatter | en: 245.848
+cycle: 44, stage: 1 | en: -7.28837
+cycle: 44, stage: 2 | en: -7.37407
+
+cycle: 45, scatter | en: 1579.68
+cycle: 45, stage: 1 | en: -7.72416
+cycle: 45, stage: 2 | en: -7.72416
+
+cycle: 46, scatter | en: 594.77
+cycle: 46, stage: 1 | en: -7.98354
+cycle: 46, stage: 2 | en: -8.01606
+
+cycle: 47, scatter | en: 1842.83
+cycle: 47, stage: 1 | en: -6.68642
+cycle: 47, stage: 2 | en: -6.68642
+
+cycle: 48, scatter | en: 1354.71
+cycle: 48, stage: 1 | en: -6.53613
+cycle: 48, stage: 2 | en: -6.53613
+
+cycle: 49, scatter | en: 1355.51
+cycle: 49, stage: 1 | en: -8.07021
+cycle: 49, stage: 2 | en: -8.07021
+
+cycle: 50, scatter | en: 238.127
+cycle: 50, stage: 1 | en: -6.67219
+cycle: 50, stage: 2 | en: -7.11401

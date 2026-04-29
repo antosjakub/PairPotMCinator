@@ -1,0 +1,104 @@
+{
+    "cell": {
+        "path": "xyz_files/cell_BTDPP_In_2mol.xyz"
+    },
+
+    "molecules": [{
+        "name": "BTDPP",
+        "path": "xyz_files/BTDPP.xyz",
+        "n_copies": 2,
+        "deformation": [{
+            "name": "part_1_aa",
+            "type": "around_axis",
+            "axis_indices": [14,7],
+            "atom_indices": [7, 8, 9, 10, 11, 33, 34, 35]
+        },{
+            "name": "part_1_fe",
+            "type": "around_axis",
+            "axis_indices": [5,12],
+            "atom_indices": [12, 13, 14, 15, 16, 36, 37, 7, 8, 9, 10, 11, 33, 34, 35]
+        },{
+            "name": "part_2_aa",
+            "type": "around_axis",
+            "axis_indices": [25,28],
+            "atom_indices": [28, 29, 30, 31, 32, 40, 41, 42]
+        },{
+            "name": "part_2_fe",
+            "type": "around_axis",
+            "axis_indices": [21,23],
+            "atom_indices": [23, 24, 25, 26, 27, 38, 39, 28, 29, 30, 31, 32, 40, 41, 42]
+        }]
+    }],
+
+    "random_seed": 5,
+
+    "n_cycles": 40,
+    "scatter": {
+        "n_trials": 500,
+        "use_translate_2D": true,
+        "use_translate_e3": false,
+        "use_rotate_e3": true,
+        "use_rotate_3D": false,
+        "use_deform": false
+    },
+
+    "stages": [
+      {
+          "name": "planar",
+          "n_loops": 1000,
+          "n_trials": 8,
+          "params": {
+              "dv1": 2,
+              "dv2": 2,
+              "dphi_e3": 2
+          },
+          "bind": {
+              "DTDPP": ["rotate_e3"]
+          }
+      },        {
+            "name": "planar",
+            "n_loops": 1000,
+            "n_trials": 8,
+            "params": {
+                "dv1": 0.5,
+                "dv2": 0.5,
+                "dphi_e3": 0.5
+            },
+            "bind": {
+                "DTDPP": ["rotate_e3"]
+            }
+        },
+        {
+                    "name": "planar_and_3d",
+                    "n_loops": 1000,
+                    "n_trials": 8,
+                    "params": {
+                        "dv1": 0.05,
+                        "dv2": 0.05,
+                        "dphi_e3": 0.05,
+                        "dphi_3D": 0.05,
+                        "dphi_deform": 0.05
+                    }
+
+                }
+
+    ],
+
+    "results_folder_name": "results_btdpp_deform/",
+    "results": {
+        ".xyz": {
+            "cycle_min_periodic": true,
+            "cycle_min_cell": true,
+            "stages_min_periodic": true,
+            "stages_min_cell": true,
+            "all_min_periodic": false,
+            "all_min_cell": false
+        },
+        ".txt": {
+            "cycle_min": true,
+            "stages_min": true,
+            "all_min": true
+        }
+    }
+
+}

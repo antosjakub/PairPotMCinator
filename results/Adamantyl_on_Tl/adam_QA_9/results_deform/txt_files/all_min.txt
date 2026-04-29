@@ -1,0 +1,115 @@
+
+
+------------------- CYCLE: 1
+-- SCATTER
+scatter | en: -6.15828
+-- STAGE 1
+loop: 2 | en_min: -6.1681
+loop: 7 | en_min: -6.2506
+-- STAGE 2
+loop: 39 | en_min: -6.37439
+loop: 40 | en_min: -6.62515
+loop: 53 | en_min: -6.63896
+loop: 59 | en_min: -6.85843
+loop: 90 | en_min: -7.08096
+loop: 225 | en_min: -7.21706
+loop: 364 | en_min: -7.34188
+loop: 473 | en_min: -7.43886
+loop: 500 | en_min: -7.4868
+loop: 501 | en_min: -7.78808
+cycle_min: -7.78808
+
+
+------------------- CYCLE: 2
+-- SCATTER
+scatter | en: -2.39913
+-- STAGE 1
+loop: 1 | en_min: -5.46975
+loop: 4 | en_min: -5.56308
+loop: 5 | en_min: -6.46272
+-- STAGE 2
+loop: 9 | en_min: -6.66879
+loop: 14 | en_min: -6.79421
+loop: 105 | en_min: -6.83005
+loop: 129 | en_min: -7.47652
+loop: 440 | en_min: -7.49775
+loop: 707 | en_min: -7.58741
+cycle_min: -7.58741
+
+
+------------------- CYCLE: 3
+-- SCATTER
+scatter | en: 106.763
+-- STAGE 1
+loop: 1 | en_min: -2.74823
+loop: 3 | en_min: -5.62106
+-- STAGE 2
+loop: 31 | en_min: -6.6753
+loop: 302 | en_min: -6.71283
+loop: 333 | en_min: -6.85106
+loop: 354 | en_min: -6.93979
+loop: 378 | en_min: -7.05658
+loop: 438 | en_min: -7.17842
+loop: 638 | en_min: -7.30713
+loop: 649 | en_min: -7.33343
+loop: 700 | en_min: -7.3351
+loop: 866 | en_min: -7.42067
+loop: 923 | en_min: -7.53199
+cycle_min: -7.53199
+
+
+------------------- CYCLE: 4
+-- SCATTER
+scatter | en: 16.1588
+-- STAGE 1
+loop: 5 | en_min: -1.85324
+loop: 6 | en_min: -4.77872
+-- STAGE 2
+loop: 2 | en_min: -5.12251
+loop: 5 | en_min: -5.86196
+loop: 7 | en_min: -5.96227
+loop: 12 | en_min: -6.22788
+loop: 13 | en_min: -6.46182
+loop: 28 | en_min: -6.53662
+loop: 34 | en_min: -6.61692
+loop: 36 | en_min: -6.81223
+loop: 51 | en_min: -7.19095
+loop: 53 | en_min: -7.36007
+loop: 54 | en_min: -8.11208
+loop: 60 | en_min: -8.22185
+loop: 362 | en_min: -8.36376
+loop: 681 | en_min: -8.60635
+loop: 756 | en_min: -8.62597
+loop: 777 | en_min: -9.09885
+cycle_min: -9.09885
+
+
+------------------- CYCLE: 5
+-- SCATTER
+scatter | en: 149.586
+-- STAGE 1
+loop: 1 | en_min: 6.09013
+loop: 4 | en_min: -2.10579
+loop: 9 | en_min: -2.59128
+-- STAGE 2
+loop: 3 | en_min: -5.31719
+loop: 6 | en_min: -5.57729
+loop: 10 | en_min: -5.74372
+loop: 16 | en_min: -6.17649
+loop: 35 | en_min: -6.36947
+loop: 88 | en_min: -6.77657
+loop: 158 | en_min: -6.8319
+loop: 226 | en_min: -7.03658
+loop: 265 | en_min: -7.21864
+cycle_min: -7.21864
+
+
+RESULTS:
+1: -7.78808
+2: -7.58741
+3: -7.53199
+4: -9.09885
+5: -7.21864
+
+TOTAL MIN:
+4: -9.09885

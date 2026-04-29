@@ -1,0 +1,287 @@
+
+
+------------------- CYCLE: 1
+-- SCATTER
+scatter | en: -3.25623
+-- STAGE 1
+loop: 8 | en_min: -3.25623, en_found: -3.2596
+loop: 12 | en_min: -3.2596, en_found: -3.26324
+loop: 13 | en_min: -3.26324, en_found: -3.26736
+loop: 17 | en_min: -3.26736, en_found: -3.28157
+loop: 26 | en_min: -3.28157, en_found: -3.29688
+loop: 37 | en_min: -3.29688, en_found: -3.32175
+loop: 44 | en_min: -3.32175, en_found: -3.34182
+loop: 64 | en_min: -3.34182, en_found: -3.3508
+loop: 81 | en_min: -3.3508, en_found: -3.35695
+-- STAGE 2
+loop: 1 | en_min: -3.35695, en_found: -3.72183
+loop: 4 | en_min: -3.72183, en_found: -3.74125
+loop: 5 | en_min: -3.74125, en_found: -3.82446
+loop: 6 | en_min: -3.82446, en_found: -3.83003
+loop: 12 | en_min: -3.83003, en_found: -3.84135
+loop: 13 | en_min: -3.84135, en_found: -3.85832
+loop: 20 | en_min: -3.85832, en_found: -3.88686
+loop: 22 | en_min: -3.88686, en_found: -3.91428
+loop: 29 | en_min: -3.91428, en_found: -3.92443
+loop: 32 | en_min: -3.92443, en_found: -3.9652
+loop: 68 | en_min: -3.9652, en_found: -3.96824
+loop: 149 | en_min: -3.96824, en_found: -3.97341
+cycle_min: -3.97341
+
+
+------------------- CYCLE: 2
+-- SCATTER
+scatter | en: -3.3201
+-- STAGE 1
+loop: 10 | en_min: -3.3201, en_found: -3.3439
+loop: 15 | en_min: -3.3439, en_found: -3.35614
+loop: 24 | en_min: -3.35614, en_found: -3.35673
+loop: 97 | en_min: -3.35673, en_found: -3.35774
+-- STAGE 2
+loop: 1 | en_min: -3.35774, en_found: -3.46798
+loop: 2 | en_min: -3.46798, en_found: -3.66479
+loop: 3 | en_min: -3.66479, en_found: -3.7483
+loop: 4 | en_min: -3.7483, en_found: -3.87698
+loop: 15 | en_min: -3.87698, en_found: -3.91014
+loop: 17 | en_min: -3.91014, en_found: -3.91775
+loop: 18 | en_min: -3.91775, en_found: -3.96112
+loop: 21 | en_min: -3.96112, en_found: -3.97669
+loop: 32 | en_min: -3.97669, en_found: -3.97833
+loop: 33 | en_min: -3.97833, en_found: -3.98337
+loop: 38 | en_min: -3.98337, en_found: -3.99392
+loop: 51 | en_min: -3.99392, en_found: -4.04248
+loop: 65 | en_min: -4.04248, en_found: -4.04373
+loop: 115 | en_min: -4.04373, en_found: -4.04893
+cycle_min: -4.04893
+
+
+------------------- CYCLE: 3
+-- SCATTER
+scatter | en: -2.08306
+-- STAGE 1
+loop: 1 | en_min: -2.08306, en_found: -3.29546
+loop: 3 | en_min: -3.29546, en_found: -3.30384
+loop: 9 | en_min: -3.30384, en_found: -3.31745
+loop: 17 | en_min: -3.31745, en_found: -3.32855
+loop: 27 | en_min: -3.32855, en_found: -3.34784
+loop: 29 | en_min: -3.34784, en_found: -3.35943
+loop: 76 | en_min: -3.35943, en_found: -3.36005
+loop: 100 | en_min: -3.36005, en_found: -3.36161
+-- STAGE 2
+loop: 1 | en_min: -3.36161, en_found: -3.71073
+loop: 2 | en_min: -3.71073, en_found: -3.82875
+loop: 4 | en_min: -3.82875, en_found: -3.83548
+loop: 6 | en_min: -3.83548, en_found: -3.8536
+loop: 15 | en_min: -3.8536, en_found: -3.86886
+loop: 22 | en_min: -3.86886, en_found: -3.87029
+loop: 55 | en_min: -3.87029, en_found: -3.92352
+loop: 119 | en_min: -3.92352, en_found: -3.93204
+loop: 120 | en_min: -3.93204, en_found: -3.93482
+loop: 130 | en_min: -3.93482, en_found: -3.94182
+loop: 145 | en_min: -3.94182, en_found: -3.9638
+loop: 161 | en_min: -3.9638, en_found: -3.9747
+loop: 183 | en_min: -3.9747, en_found: -3.98013
+cycle_min: -3.98013
+
+
+------------------- CYCLE: 4
+-- SCATTER
+scatter | en: -2.76145
+-- STAGE 1
+loop: 1 | en_min: -2.76145, en_found: -3.16108
+loop: 2 | en_min: -3.16108, en_found: -3.33544
+loop: 17 | en_min: -3.33544, en_found: -3.33564
+loop: 20 | en_min: -3.33564, en_found: -3.33688
+loop: 24 | en_min: -3.33688, en_found: -3.35677
+-- STAGE 2
+loop: 1 | en_min: -3.35677, en_found: -3.77867
+loop: 2 | en_min: -3.77867, en_found: -3.79665
+loop: 7 | en_min: -3.79665, en_found: -3.83729
+loop: 8 | en_min: -3.83729, en_found: -3.83803
+loop: 10 | en_min: -3.83803, en_found: -3.8695
+loop: 13 | en_min: -3.8695, en_found: -3.87642
+loop: 14 | en_min: -3.87642, en_found: -3.90062
+loop: 18 | en_min: -3.90062, en_found: -3.9013
+loop: 28 | en_min: -3.9013, en_found: -3.91843
+loop: 98 | en_min: -3.91843, en_found: -3.93376
+loop: 127 | en_min: -3.93376, en_found: -3.93711
+loop: 139 | en_min: -3.93711, en_found: -3.94039
+loop: 140 | en_min: -3.94039, en_found: -3.96406
+loop: 143 | en_min: -3.96406, en_found: -3.96855
+loop: 145 | en_min: -3.96855, en_found: -3.9732
+loop: 151 | en_min: -3.9732, en_found: -3.98759
+loop: 155 | en_min: -3.98759, en_found: -4.01284
+cycle_min: -4.01284
+
+
+------------------- CYCLE: 5
+-- SCATTER
+scatter | en: -2.77739
+-- STAGE 1
+loop: 1 | en_min: -2.77739, en_found: -3.20995
+loop: 3 | en_min: -3.20995, en_found: -3.22969
+loop: 7 | en_min: -3.22969, en_found: -3.24591
+loop: 22 | en_min: -3.24591, en_found: -3.24659
+loop: 28 | en_min: -3.24659, en_found: -3.25005
+loop: 40 | en_min: -3.25005, en_found: -3.25309
+loop: 50 | en_min: -3.25309, en_found: -3.2563
+loop: 57 | en_min: -3.2563, en_found: -3.26974
+-- STAGE 2
+loop: 1 | en_min: -3.26974, en_found: -3.51022
+loop: 2 | en_min: -3.51022, en_found: -3.71769
+loop: 4 | en_min: -3.71769, en_found: -3.76099
+loop: 7 | en_min: -3.76099, en_found: -3.7952
+loop: 12 | en_min: -3.7952, en_found: -3.79574
+loop: 20 | en_min: -3.79574, en_found: -3.83894
+loop: 24 | en_min: -3.83894, en_found: -3.85663
+loop: 30 | en_min: -3.85663, en_found: -3.89598
+loop: 42 | en_min: -3.89598, en_found: -3.89605
+loop: 66 | en_min: -3.89605, en_found: -3.90828
+loop: 85 | en_min: -3.90828, en_found: -3.9258
+loop: 98 | en_min: -3.9258, en_found: -3.92903
+loop: 105 | en_min: -3.92903, en_found: -3.94415
+loop: 108 | en_min: -3.94415, en_found: -3.94578
+cycle_min: -3.94578
+
+
+------------------- CYCLE: 6
+-- SCATTER
+scatter | en: -2.89833
+-- STAGE 1
+loop: 1 | en_min: -2.89833, en_found: -3.21911
+loop: 2 | en_min: -3.21911, en_found: -3.31262
+loop: 9 | en_min: -3.31262, en_found: -3.33181
+loop: 15 | en_min: -3.33181, en_found: -3.35522
+-- STAGE 2
+loop: 1 | en_min: -3.35522, en_found: -3.75711
+loop: 5 | en_min: -3.75711, en_found: -3.84015
+loop: 7 | en_min: -3.84015, en_found: -3.86147
+loop: 9 | en_min: -3.86147, en_found: -3.89427
+loop: 25 | en_min: -3.89427, en_found: -3.89962
+loop: 33 | en_min: -3.89962, en_found: -3.90835
+loop: 39 | en_min: -3.90835, en_found: -3.91238
+loop: 84 | en_min: -3.91238, en_found: -3.9202
+loop: 86 | en_min: -3.9202, en_found: -3.94165
+loop: 143 | en_min: -3.94165, en_found: -3.94908
+loop: 191 | en_min: -3.94908, en_found: -3.94953
+cycle_min: -3.94953
+
+
+------------------- CYCLE: 7
+-- SCATTER
+scatter | en: -3.31885
+-- STAGE 1
+loop: 1 | en_min: -3.31885, en_found: -3.36049
+loop: 5 | en_min: -3.36049, en_found: -3.36889
+loop: 17 | en_min: -3.36889, en_found: -3.37115
+-- STAGE 2
+loop: 1 | en_min: -3.37115, en_found: -3.54315
+loop: 2 | en_min: -3.54315, en_found: -3.6107
+loop: 3 | en_min: -3.6107, en_found: -3.6858
+loop: 4 | en_min: -3.6858, en_found: -3.77613
+loop: 5 | en_min: -3.77613, en_found: -3.84751
+loop: 6 | en_min: -3.84751, en_found: -3.84769
+loop: 7 | en_min: -3.84769, en_found: -3.88148
+loop: 13 | en_min: -3.88148, en_found: -3.94013
+loop: 22 | en_min: -3.94013, en_found: -3.95406
+loop: 34 | en_min: -3.95406, en_found: -3.97609
+loop: 84 | en_min: -3.97609, en_found: -3.98273
+loop: 188 | en_min: -3.98273, en_found: -3.98383
+cycle_min: -3.98383
+
+
+------------------- CYCLE: 8
+-- SCATTER
+scatter | en: -2.76877
+-- STAGE 1
+loop: 1 | en_min: -2.76877, en_found: -3.25892
+loop: 7 | en_min: -3.25892, en_found: -3.26696
+loop: 47 | en_min: -3.26696, en_found: -3.2671
+-- STAGE 2
+loop: 1 | en_min: -3.2671, en_found: -3.46365
+loop: 2 | en_min: -3.46365, en_found: -3.56861
+loop: 3 | en_min: -3.56861, en_found: -3.67907
+loop: 9 | en_min: -3.67907, en_found: -3.68347
+loop: 11 | en_min: -3.68347, en_found: -3.70776
+loop: 19 | en_min: -3.70776, en_found: -3.72246
+loop: 32 | en_min: -3.72246, en_found: -3.74283
+loop: 56 | en_min: -3.74283, en_found: -3.76529
+loop: 59 | en_min: -3.76529, en_found: -3.77766
+loop: 62 | en_min: -3.77766, en_found: -3.78284
+loop: 63 | en_min: -3.78284, en_found: -3.79051
+loop: 67 | en_min: -3.79051, en_found: -3.83738
+loop: 69 | en_min: -3.83738, en_found: -3.8576
+loop: 76 | en_min: -3.8576, en_found: -3.86055
+loop: 98 | en_min: -3.86055, en_found: -3.8662
+cycle_min: -3.8662
+
+
+------------------- CYCLE: 9
+-- SCATTER
+scatter | en: -2.29117
+-- STAGE 1
+loop: 2 | en_min: -2.29117, en_found: -3.08093
+loop: 4 | en_min: -3.08093, en_found: -3.32389
+loop: 12 | en_min: -3.32389, en_found: -3.34146
+loop: 17 | en_min: -3.34146, en_found: -3.34792
+loop: 49 | en_min: -3.34792, en_found: -3.35192
+-- STAGE 2
+loop: 1 | en_min: -3.35192, en_found: -3.55738
+loop: 2 | en_min: -3.55738, en_found: -3.80528
+loop: 13 | en_min: -3.80528, en_found: -3.82193
+loop: 34 | en_min: -3.82193, en_found: -3.83044
+loop: 35 | en_min: -3.83044, en_found: -3.86131
+loop: 39 | en_min: -3.86131, en_found: -3.87237
+loop: 53 | en_min: -3.87237, en_found: -3.88019
+loop: 57 | en_min: -3.88019, en_found: -3.88475
+loop: 59 | en_min: -3.88475, en_found: -3.90426
+loop: 76 | en_min: -3.90426, en_found: -3.90747
+loop: 77 | en_min: -3.90747, en_found: -3.94158
+loop: 84 | en_min: -3.94158, en_found: -3.94803
+loop: 91 | en_min: -3.94803, en_found: -3.9907
+loop: 97 | en_min: -3.9907, en_found: -4.03823
+cycle_min: -4.03823
+
+
+------------------- CYCLE: 10
+-- SCATTER
+scatter | en: -2.27803
+-- STAGE 1
+loop: 1 | en_min: -2.27803, en_found: -3.23727
+loop: 2 | en_min: -3.23727, en_found: -3.28604
+loop: 5 | en_min: -3.28604, en_found: -3.35912
+loop: 36 | en_min: -3.35912, en_found: -3.36691
+-- STAGE 2
+loop: 1 | en_min: -3.36691, en_found: -3.73497
+loop: 2 | en_min: -3.73497, en_found: -3.75672
+loop: 5 | en_min: -3.75672, en_found: -3.82263
+loop: 8 | en_min: -3.82263, en_found: -3.82286
+loop: 11 | en_min: -3.82286, en_found: -3.84251
+loop: 18 | en_min: -3.84251, en_found: -3.87527
+loop: 23 | en_min: -3.87527, en_found: -3.90785
+loop: 27 | en_min: -3.90785, en_found: -3.90896
+loop: 43 | en_min: -3.90896, en_found: -3.92226
+loop: 50 | en_min: -3.92226, en_found: -3.92357
+loop: 51 | en_min: -3.92357, en_found: -3.94538
+loop: 65 | en_min: -3.94538, en_found: -3.97158
+loop: 76 | en_min: -3.97158, en_found: -3.97734
+loop: 82 | en_min: -3.97734, en_found: -4.02175
+loop: 125 | en_min: -4.02175, en_found: -4.03074
+loop: 166 | en_min: -4.03074, en_found: -4.03637
+cycle_min: -4.03637
+
+
+RESULTS:
+1: -3.97341
+2: -4.04893
+3: -3.98013
+4: -4.01284
+5: -3.94578
+6: -3.94953
+7: -3.98383
+8: -3.8662
+9: -4.03823
+10: -4.03637
+
+TOTAL MIN:
+2: -4.04893

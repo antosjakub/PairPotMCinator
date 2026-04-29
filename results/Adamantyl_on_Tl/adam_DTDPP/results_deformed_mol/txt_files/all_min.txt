@@ -1,0 +1,198 @@
+
+
+------------------- CYCLE: 1
+-- SCATTER
+scatter | en: -2.5519
+-- STAGE 1
+loop: 1 | en_min: -8.04342
+loop: 14 | en_min: -8.06185
+loop: 15 | en_min: -8.38021
+loop: 25 | en_min: -8.55094
+loop: 28 | en_min: -9.11192
+loop: 56 | en_min: -9.13871
+loop: 277 | en_min: -9.15269
+loop: 362 | en_min: -9.16593
+loop: 486 | en_min: -9.18693
+-- STAGE 2
+loop: 44 | en_min: -9.19967
+cycle_min: -9.19967
+
+
+------------------- CYCLE: 2
+-- SCATTER
+scatter | en: 553.625
+-- STAGE 1
+loop: 1 | en_min: 80.2369
+loop: 2 | en_min: -5.43248
+loop: 11 | en_min: -5.58797
+loop: 14 | en_min: -6.20793
+loop: 16 | en_min: -7.51717
+loop: 45 | en_min: -7.65211
+loop: 50 | en_min: -8.40903
+loop: 54 | en_min: -8.78024
+loop: 98 | en_min: -9.15825
+loop: 231 | en_min: -9.30039
+-- STAGE 2
+cycle_min: -9.30039
+
+
+------------------- CYCLE: 3
+-- SCATTER
+scatter | en: 264.779
+-- STAGE 1
+loop: 4 | en_min: 79.7471
+loop: 7 | en_min: 24.5138
+loop: 10 | en_min: 3.47889
+loop: 24 | en_min: 2.20789
+loop: 27 | en_min: -1.80698
+loop: 28 | en_min: -2.49285
+loop: 32 | en_min: -4.04573
+loop: 84 | en_min: -6.92814
+loop: 99 | en_min: -7.61577
+loop: 107 | en_min: -7.66478
+loop: 113 | en_min: -7.77612
+loop: 119 | en_min: -7.96229
+loop: 126 | en_min: -8.45231
+loop: 261 | en_min: -8.51621
+loop: 266 | en_min: -8.61309
+-- STAGE 2
+cycle_min: -8.61309
+
+
+------------------- CYCLE: 4
+-- SCATTER
+scatter | en: -5.3366
+-- STAGE 1
+loop: 1 | en_min: -6.17685
+loop: 13 | en_min: -6.29606
+loop: 16 | en_min: -6.77237
+loop: 22 | en_min: -6.86652
+loop: 30 | en_min: -8.10258
+loop: 35 | en_min: -8.52754
+loop: 69 | en_min: -8.81723
+loop: 170 | en_min: -8.9055
+loop: 181 | en_min: -8.92814
+loop: 396 | en_min: -9.05616
+-- STAGE 2
+cycle_min: -9.05616
+
+
+------------------- CYCLE: 5
+-- SCATTER
+scatter | en: 11.6684
+-- STAGE 1
+loop: 1 | en_min: -1.87616
+loop: 2 | en_min: -3.71708
+loop: 3 | en_min: -3.91616
+loop: 4 | en_min: -6.15926
+loop: 19 | en_min: -6.20244
+loop: 52 | en_min: -6.7558
+loop: 60 | en_min: -7.75006
+loop: 65 | en_min: -7.82059
+loop: 71 | en_min: -7.95929
+loop: 74 | en_min: -8.64322
+loop: 108 | en_min: -8.75314
+loop: 186 | en_min: -8.76829
+loop: 195 | en_min: -9.04873
+loop: 269 | en_min: -9.15487
+-- STAGE 2
+cycle_min: -9.15487
+
+
+------------------- CYCLE: 6
+-- SCATTER
+scatter | en: 15.5902
+-- STAGE 1
+loop: 1 | en_min: 1.46824
+loop: 2 | en_min: -3.97702
+loop: 3 | en_min: -7.18479
+loop: 34 | en_min: -7.58825
+loop: 107 | en_min: -7.62249
+loop: 128 | en_min: -7.79328
+loop: 179 | en_min: -8.50322
+-- STAGE 2
+cycle_min: -8.50322
+
+
+------------------- CYCLE: 7
+-- SCATTER
+scatter | en: 13.9679
+-- STAGE 1
+loop: 3 | en_min: -4.37938
+loop: 12 | en_min: -5.63668
+loop: 19 | en_min: -6.90941
+loop: 27 | en_min: -7.22672
+loop: 40 | en_min: -7.63688
+loop: 69 | en_min: -7.7829
+loop: 169 | en_min: -7.943
+loop: 267 | en_min: -8.18289
+loop: 398 | en_min: -8.34276
+loop: 422 | en_min: -8.72093
+loop: 426 | en_min: -9.05333
+-- STAGE 2
+loop: 312 | en_min: -9.07586
+cycle_min: -9.07586
+
+
+------------------- CYCLE: 8
+-- SCATTER
+scatter | en: -4.91532
+-- STAGE 1
+loop: 4 | en_min: -8.47991
+loop: 36 | en_min: -9.05164
+loop: 48 | en_min: -9.16817
+loop: 84 | en_min: -9.32866
+loop: 226 | en_min: -9.34909
+loop: 452 | en_min: -9.4359
+-- STAGE 2
+cycle_min: -9.4359
+
+
+------------------- CYCLE: 9
+-- SCATTER
+scatter | en: 110.672
+-- STAGE 1
+loop: 1 | en_min: -0.545975
+loop: 2 | en_min: -6.30606
+loop: 11 | en_min: -6.69582
+loop: 24 | en_min: -6.87158
+loop: 37 | en_min: -7.71184
+loop: 82 | en_min: -7.79971
+loop: 95 | en_min: -8.37728
+loop: 98 | en_min: -8.4759
+loop: 166 | en_min: -8.77985
+loop: 192 | en_min: -8.97402
+loop: 254 | en_min: -9.09167
+loop: 318 | en_min: -9.21472
+-- STAGE 2
+loop: 139 | en_min: -9.22178
+cycle_min: -9.22178
+
+
+------------------- CYCLE: 10
+-- SCATTER
+scatter | en: -5.62469
+-- STAGE 1
+loop: 4 | en_min: -6.44771
+loop: 5 | en_min: -8.06402
+loop: 63 | en_min: -9.02381
+loop: 345 | en_min: -9.05821
+loop: 429 | en_min: -9.13944
+-- STAGE 2
+cycle_min: -9.13944
+
+
+RESULTS:
+1: -9.19967
+2: -9.30039
+3: -8.61309
+4: -9.05616
+5: -9.15487
+6: -8.50322
+7: -9.07586
+8: -9.4359
+9: -9.22178
+10: -9.13944
+
+TOTAL MIN:
+8: -9.4359

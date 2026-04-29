@@ -1,0 +1,73 @@
+{
+    "cell": {
+        "path": "xyz_files/cell_DPP_In_10mol-l.xyz"
+    },
+
+    "molecules": [{
+        "name": "DTDPP",
+        "path": "xyz_files/DPDPP_315_pair.xyz",
+        "n_copies": 5
+    }],
+
+    "random_seed": 7,
+
+    "n_cycles": 10,
+    "stages": [
+        {
+            "name": "scatter",
+            "n_loops": 1000,
+            "n_trials": 8,
+            "params": {
+                "dv1": 2,
+                "dv2": 2,
+                "dphi_e3": 0
+            },
+            "bind": {
+                "DTDPP": ["rotate_e3"]
+            }
+        },
+        {
+            "name": "planar",
+            "n_loops": 500,
+            "n_trials": 8,
+            "params": {
+                "dv1": 0.5,
+                "dv2": 0.5,
+                "dphi_e3": 0.1
+            },
+            "bind": {
+                "DTDPP": ["rotate_e3"]
+            }
+        },
+        {
+                    "name": "planar",
+                    "n_loops": 500,
+                    "n_trials": 8,
+                    "params": {
+                        "dv1": 0.1,
+                        "dv2": 0.1,
+                        "dphi_e3": 0
+                    }
+
+                }
+
+    ],
+
+    "results_folder_name": "results_dpdpp_norot_5x2/",
+    "results": {
+        ".xyz": {
+            "cycle_min_periodic": true,
+            "cycle_min_cell": true,
+            "stages_min_periodic": true,
+            "stages_min_cell": true,
+            "all_min_periodic": false,
+            "all_min_cell": false
+        },
+        ".txt": {
+            "cycle_min": true,
+            "stages_min": true,
+            "all_min": true
+        }
+    }
+
+}

@@ -1,0 +1,88 @@
+{
+    "cell": {
+        "path": "xyz_files/cell_Tl_adam_DTDPP.xyz"
+    },
+
+    "molecules": [{
+        "name": "adam_DTDPP",
+        "path": "xyz_files/adam_DTDPP.xyz",
+        "n_copies": 2,
+        "deformation": [{
+            "name": "part_1_aa",
+            "type": "around_axis",
+            "axis_indices": [2,38],
+            "atom_indices": [27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57]
+        },{
+            "name": "part_1_fe",
+            "type": "free_end",
+            "axis_indices": [2,38],
+            "atom_indices": [27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57]
+        },{
+            "name": "part_2_aa",
+            "type": "around_axis",
+            "axis_indices": [15,69],
+            "atom_indices": [58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88]
+        },{
+            "name": "part_2_fe",
+            "type": "free_end",
+            "axis_indices": [15,69],
+            "atom_indices": [58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88]
+        }]
+    }],
+
+    "random_seed": 1,
+
+    "n_cycles": 10,
+    "scatter": {
+        "n_trials": 64,
+        "use_translate_2D": true,
+        "use_translate_e3": false,
+        "use_rotate_e3": true,
+        "use_rotate_3D": false,
+        "use_deform": false
+    },
+    "stages": [
+        {
+            "name": "planar",
+            "n_loops": 1000,
+            "n_trials": 16,
+            "params": {
+                "dv1": 0.5,
+                "dv2": 0.5,
+                "dphi_e3": 0.25,
+                "dphi_deform": 0.25
+            }
+        },
+        {
+            "name": "planar_and_3d",
+            "n_loops": 2000,
+            "n_trials": 16,
+            "params": {
+                "dv1": 0.25,
+                "dv2": 0.25,
+                "de3": 0.1,
+                "dphi_e3": 0.1,
+                "dphi_3D": 0.1,
+                "dphi_deform": 0.1
+            }
+        }
+    ],
+
+    "results_folder_name": "results_deform/",
+    "results": {
+        ".xyz": {
+            "cycle_min_periodic": true,
+            "cycle_min_cell": true,
+            "stages_min_periodic": true,
+            "stages_min_cell": true,
+            "all_min_periodic": false,
+            "all_min_cell": false
+        },
+        ".txt": {
+            "cycle_min": true,
+            "stages_min": true,
+            "all_min": true
+        }
+    }
+
+}

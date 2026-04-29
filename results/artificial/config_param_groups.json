@@ -1,0 +1,70 @@
+{
+    "unit_cell": {
+        "path": "xyz_files/cell.xyz"
+    },
+
+    "molecules": [{
+        "name": "DTDPP",
+        "path": "xyz_files/DTDPP.xyz",
+        "n_copies": 3
+    }, {
+        "name": "DPDPP",
+        "path": "xyz_files/DPDPP.xyz",
+        "n_copies": 2
+    }],
+
+    "random_seed": 1,
+    "n_cycles": 2,
+    "scatter": {
+        "n_trials": 32,
+        "translate_2D": true,
+        "translate_e3": false,
+        "rotate_e3": true,
+        "rotate_3D": false,
+        "deform": false
+    },
+    "stages": [{
+        "name": "planar",
+        "n_loops": 100,
+        "n_trials": 4,
+        "params": {
+            "translate_2D": 0.25,
+            "rotate_e3": 0.25,
+            "DTDPP": {
+                "translate_2D": 0.5,
+                "rotate_e3": 0.5
+            }
+        }
+    }, {
+        "name": "settle_into_place",
+        "n_loops": 50,
+        "n_trials": 8,
+        "params": {
+            "translate_2D": 0.1,
+            "rotate_e3": 0.1,
+            "translate_e3": 0.1,
+            "rotate_3D": 0.1,
+            "DTDPP": {
+                "translate_e3": 0.2,
+                "rotate_3D": 0.2
+            }
+        }
+    }],
+    "results": {
+        "folder": "results_param_groups/",
+        ".xyz": {
+            "cycle_min_periodic": true,
+            "cycle_min_cell": true,
+            "stages_min_periodic": true,
+            "stages_min_cell": true,
+            "all_min_periodic": true,
+            "all_min_cell": true
+        },
+        ".txt": {
+            "cycle_min": true,
+            "stages_min": true,
+            "all_min": true
+        }
+    }
+
+}

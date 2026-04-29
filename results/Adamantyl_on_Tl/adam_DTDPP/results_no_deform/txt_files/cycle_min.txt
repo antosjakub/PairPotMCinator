@@ -1,0 +1,11 @@
+
+cycle: 1 | en: -4.85645
+cycle: 2 | en: -5.96521
+cycle: 3 | en: -4.70952
+cycle: 4 | en: -5.96044
+cycle: 5 | en: -5.92672
+cycle: 6 | en: -6.17924
+cycle: 7 | en: -4.56173
+cycle: 8 | en: -5.31645
+cycle: 9 | en: -5.51163
+cycle: 10 | en: -3.53609

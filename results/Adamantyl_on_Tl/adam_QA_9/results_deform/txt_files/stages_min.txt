@@ -1,0 +1,26 @@
+
+
+------------------- CYCLE: 1
+scatter  | en: -6.15828
+stage: 1 | en: -6.2506
+stage: 2 | en: -7.78808
+
+------------------- CYCLE: 2
+scatter  | en: -2.39913
+stage: 1 | en: -6.46272
+stage: 2 | en: -7.58741
+
+------------------- CYCLE: 3
+scatter  | en: 106.763
+stage: 1 | en: -5.62106
+stage: 2 | en: -7.53199
+
+------------------- CYCLE: 4
+scatter  | en: 16.1588
+stage: 1 | en: -4.77872
+stage: 2 | en: -9.09885
+
+------------------- CYCLE: 5
+scatter  | en: 149.586
+stage: 1 | en: -2.59128
+stage: 2 | en: -7.21864
