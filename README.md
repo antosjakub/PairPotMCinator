@@ -3,8 +3,8 @@
 ### Table of Contents
 
 - [Dependencies](#dependencies)
-- [Installing this project](#installing-this-project)
-- [Example walkthrough](#example-walkthrough)
+- [Setting up this repo](#installing-this-project)
+- [Running the PairPotMCinator](#running-the-pairpotmcinator)
 - [Editing the source code](#editing-the-source-code)
 
 
@@ -69,9 +69,42 @@ sudo ldconfig
 </details>
 
 
+### (Optional) Jmol
+-- A software for visualization of molecular systems.
+
+<details>
+<summary>Installation steps</summary>
+<br>
+
+1) Download Jmol from sourceforge:
+https://sourceforge.net/projects/jmol/
+
+2) Uzip it
+
+3) Install java
+    - in debian-related distributions:
+        ```
+        sudo pacman -S jre-openjdk jdk-openjdk
+        ```
+    - in fedora-related distributions:
+        ```
+        sudo apt install default-jdk
+        ```
+
+4) Make Jmol.jar executable
+```
+chmod u+x ./Jmol.jar
+```
+
+5) Launch Jmol like so:
+```
+java -jar Jmol.jar
+```
+
+</details>
 
 
-## Installing this project
+## Setting up this repo
 clone this project:
 ```
 git clone <project_url>
@@ -108,7 +141,7 @@ Then cd to wherever you have your configuration .json file, and run
 PairPotMCinator <your_json_file>
 ```
 
-A few example .json files are located in the results/artificial/ folder of this project.
+A few example .json files are located in the `results/artificial/` folder of this project.
 
 To run one of them, just cd there
 ```

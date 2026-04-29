@@ -71,7 +71,7 @@ class Atom {
 };
 
 
-gsl_matrix_float * return_quaternion_matrix(const gsl_vector_float * axis, const float angle, gsl_matrix_float * A = gsl_matrix_float_alloc(3,3)) {
+void set_quaternion_matrix(const gsl_vector_float * axis, const float angle, gsl_matrix_float * A) {
     gsl_matrix_float_set_zero(A);
     gsl_matrix_float_set(A,0,1, -gsl_vector_float_get(axis, 2));
     gsl_matrix_float_set(A,0,2,  gsl_vector_float_get(axis, 1));
@@ -85,6 +85,10 @@ gsl_matrix_float * return_quaternion_matrix(const gsl_vector_float * axis, const
     gsl_matrix_float_set(A,2,2, cos(angle));
     // A + a xy^T
     gsl_blas_sger(1-cos(angle), axis, axis, A); 
+}
+gsl_matrix_float * return_quaternion_matrix(const gsl_vector_float * axis, const float angle) {
+    gsl_matrix_float * A = gsl_matrix_float_alloc(3,3);
+    set_quaternion_matrix(axis, angle, A);
     return A;
 }
 void rotate_vec(gsl_vector_float * vec, const gsl_matrix_float * A, const gsl_vector_float * pos_0, gsl_vector_float * y) {
@@ -103,13 +107,15 @@ class AtomHolder {
         Atom * atom;
         gsl_vector_float * pos;
     private:
-        gsl_vector_float * w;
+        gsl_vector_float * __w;
+        gsl_matrix_float * __A;
     public:
         explicit AtomHolder(int n_atoms_ext) {
             n_atoms = n_atoms_ext;
             atom = new Atom[n_atoms];
             pos = gsl_vector_float_calloc(3);
-            w = gsl_vector_float_calloc(3);
+            __w = gsl_vector_float_calloc(3);
+            __A = gsl_matrix_float_calloc(3,3);
         }
         AtomHolder(AtomHolder &t) {
             //cout << "copy constructor of AtomHolder called" << endl;
@@ -119,9 +125,11 @@ class AtomHolder {
                 *(atom+i) = *(t.atom+i);
             }
             pos = gsl_vector_float_alloc(3);
+            __w = gsl_vector_float_alloc(3);
+            __A = gsl_matrix_float_alloc(3,3);
             gsl_vector_float_memcpy(pos, t.pos);
-            w = gsl_vector_float_alloc(3);
-            gsl_vector_float_memcpy(w, t.w);
+            gsl_vector_float_memcpy(__w, t.__w);
+            gsl_matrix_float_memcpy(__A, t.__A);
         };
         AtomHolder& operator=(const AtomHolder &t) {
             //cout << "assignment operator of AtomHolder called" << endl;
@@ -130,15 +138,16 @@ class AtomHolder {
                 *(atom+i) = *(t.atom+i);
             }
             gsl_vector_float_memcpy(pos, t.pos);
-            gsl_vector_float_memcpy(w, t.w);
+            gsl_vector_float_memcpy(__w, t.__w);
+            gsl_matrix_float_memcpy(__A, t.__A);
             return *this;
         }
         list<string> * return_element_list();
-        gsl_vector_float * return_center_of_mass(gsl_vector_float * v);
+        void set_center_of_mass(gsl_vector_float * v);
         void move(const gsl_vector_float * v);
         void set_pos(const gsl_vector_float * v);
         void center();
-        void rotate(const gsl_vector_float * axis, const float angle, gsl_matrix_float * A);
+        void rotate(const gsl_vector_float * axis, const float angle);
 };
 list<string> * AtomHolder::return_element_list() {
     list<string> * element_list = new list<string>;
@@ -150,25 +159,25 @@ list<string> * AtomHolder::return_element_list() {
     element_list->unique();
     return element_list;
 }
-gsl_vector_float * AtomHolder::return_center_of_mass(gsl_vector_float * v = gsl_vector_float_calloc(3)) {
+void AtomHolder::set_center_of_mass(gsl_vector_float * v) {
+    gsl_vector_float_set_zero(v);
     for (int i=0; i<n_atoms; ++i) {
         gsl_vector_float_add(v, (atom+i)->pos);
     }
     gsl_vector_float_scale(v, 1.0/n_atoms);
-    return v;
+    return;
 }
 void AtomHolder::center() {
-    gsl_vector_float_set_zero(w);
-    return_center_of_mass(w);
+    set_center_of_mass(__w);
     for (int i=0; i<n_atoms; ++i) {
-        gsl_vector_float_sub((atom+i)->pos, w);
+        gsl_vector_float_sub((atom+i)->pos, __w);
     }
     return;
 }
-void AtomHolder::rotate(const gsl_vector_float * axis, const float angle, gsl_matrix_float * A = gsl_matrix_float_alloc(3,3)) {
-    return_quaternion_matrix(axis, angle, A);
+void AtomHolder::rotate(const gsl_vector_float * axis, const float angle) {
+    set_quaternion_matrix(axis, angle, __A);
     for (int i=0; i<n_atoms; ++i) {
-        rotate_vec((atom+i)->pos, A, pos, w);
+        rotate_vec((atom+i)->pos, __A, pos, __w);
     };
     return;
 }
@@ -180,10 +189,10 @@ void AtomHolder::move(const gsl_vector_float * v) {
     return;
 };
 void AtomHolder::set_pos(const gsl_vector_float * v) {
-    gsl_vector_float_memcpy(w, v);
-    gsl_vector_float_sub(w, pos);
+    gsl_vector_float_memcpy(__w, v);
+    gsl_vector_float_sub(__w, pos);
     for (int i=0; i<n_atoms; ++i) {
-        gsl_vector_float_add((atom+i)->pos, w);
+        gsl_vector_float_add((atom+i)->pos, __w);
     }
     return;
 };
@@ -193,18 +202,43 @@ class MoleculePart {
     public:
         vector<int> atoms_indices;
         vector<int> axis_indices;
+        gsl_vector_float * __rot_axis;
+    private:
+        gsl_vector_float * __w;
+        gsl_matrix_float * __A;
+    public:
     explicit MoleculePart(vector<int> axis_indices_inp, vector<int> atoms_indices_inp) {
         axis_indices = axis_indices_inp;
         atoms_indices = atoms_indices_inp;
+        __rot_axis = gsl_vector_float_calloc(3);
+        __w = gsl_vector_float_calloc(3);
+        __A = gsl_matrix_float_calloc(3,3);
     }
+    MoleculePart(const MoleculePart& other) {
+        atoms_indices = other.atoms_indices;
+        axis_indices = other.axis_indices;
+        __rot_axis = gsl_vector_float_alloc(3);
+        __w = gsl_vector_float_alloc(3);
+        __A = gsl_matrix_float_alloc(3, 3);
+        gsl_vector_float_memcpy(__rot_axis, other.__rot_axis);
+        gsl_vector_float_memcpy(__w, other.__w);
+        gsl_matrix_float_memcpy(__A, other.__A);
+    }
+    MoleculePart& operator=(const MoleculePart& other) {
+        atoms_indices = other.atoms_indices;
+        axis_indices  = other.axis_indices;
+        gsl_vector_float_memcpy(__rot_axis, other.__rot_axis);
+        gsl_vector_float_memcpy(__w, other.__w);
+        gsl_matrix_float_memcpy(__A, other.__A);
+        return *this;
+    }
+
     void rotate_axis(const float angle, Atom * atom, gsl_vector_float * axis) {
-        gsl_matrix_float * A = return_quaternion_matrix(axis, angle);
-        gsl_vector_float * y = gsl_vector_float_calloc(3);
+        gsl_vector_float_set_zero(__w);
+        set_quaternion_matrix(axis, angle, __A);
         for (auto j : atoms_indices) {
-            rotate_vec((atom+j)->pos, A, (atom+axis_indices.at(0))->pos, y);
+            rotate_vec((atom+j)->pos, __A, (atom+axis_indices.at(0))->pos, __w);
         };
-        gsl_matrix_float_free(A);
-        gsl_vector_float_free(y);
         return;
     }
 };
@@ -213,13 +247,10 @@ class AroundAxis : public MoleculePart {
     using MoleculePart::MoleculePart;
     public:
     void rotate(const float angle, Atom * atom) {
-        gsl_vector_float * axis = gsl_vector_float_calloc(3);
-        gsl_vector_float_memcpy(axis, (atom+axis_indices.at(1))->pos);
-        gsl_vector_float_sub(axis, (atom+axis_indices.at(0))->pos);
-        gsl_vector_float_scale(axis, 1.0/gsl_blas_snrm2(axis));
-
-        rotate_axis(angle, atom, axis);
-        gsl_vector_float_free(axis);
+        gsl_vector_float_memcpy(__rot_axis, (atom+axis_indices.at(1))->pos);
+        gsl_vector_float_sub(__rot_axis, (atom+axis_indices.at(0))->pos);
+        gsl_vector_float_scale(__rot_axis, 1.0/gsl_blas_snrm2(__rot_axis));
+        rotate_axis(angle, atom, __rot_axis);
     }
 };
 

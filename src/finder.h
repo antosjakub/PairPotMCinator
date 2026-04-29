@@ -91,14 +91,6 @@ class LogObject {
 
 // use in every stage for each group
 // use DOF: T=int, multipliers: T=float, bind: T=int
-template <typename T>
-map<string, T> DOF_base {
-    {"translate_2D", 0},
-    {"translate_e3", 0},
-    {"rotate_3D", 0},
-    {"rotate_e3", 0},
-    {"deform", 0}
-};
 
 class Stage {
     public:
@@ -199,19 +191,18 @@ class Finder {
         float phi, a1, a2, a3;
         gsl_vector_float * w = gsl_vector_float_calloc(3);
         gsl_vector_float * unit_vector = gsl_vector_float_calloc(3);
-        gsl_matrix_float * rot_matrix = gsl_matrix_float_calloc(3,3);
         list<Molecule*>::iterator iter;
 
         if (params["rotate_e3"] > 0) {
             if (bind["rotate_e3"] == 1) {
                 phi = params["rotate_e3"] * M_PI*(2*gsl_rng_uniform(rand)-1);
                 for (iter=mol_list.begin(); iter!=mol_list.end(); ++iter) {
-                    (*iter)->rotate(consts::e3, phi, rot_matrix);
+                    (*iter)->rotate(consts::e3, phi);
                 }
             } else {
                 for (iter=mol_list.begin(); iter!=mol_list.end(); ++iter) {
                     phi = params["rotate_e3"] * M_PI*(2*gsl_rng_uniform(rand)-1);
-                    (*iter)->rotate(consts::e3, phi, rot_matrix);
+                    (*iter)->rotate(consts::e3, phi);
                 }
             }
         };
@@ -220,13 +211,13 @@ class Finder {
                 phi = params["rotate_3D"] * M_PI*(2*gsl_rng_uniform(rand)-1);
                 set_random_axis(unit_vector, rand);
                 for (iter=mol_list.begin(); iter!=mol_list.end(); ++iter) {
-                    (*iter)->rotate(unit_vector, phi, rot_matrix);
+                    (*iter)->rotate(unit_vector, phi);
                 }
             } else {
                 for (iter=mol_list.begin(); iter!=mol_list.end(); ++iter) {
                     phi = params["rotate_3D"] * M_PI*(2*gsl_rng_uniform(rand)-1);
                     set_random_axis(unit_vector, rand);
-                    (*iter)->rotate(unit_vector, phi, rot_matrix);
+                    (*iter)->rotate(unit_vector, phi);
                 }
             }
         };
@@ -284,6 +275,7 @@ class Finder {
                 for (int i=0; i<n_fe_deforms; ++i) {
                     phi = params["deform"] * M_PI*(2*gsl_rng_uniform(rand)-1);
                     rands_fe_deform.at(i) = phi;
+                    // td
                     gsl_vector_float * rand_vec = gsl_vector_float_calloc(3);
                     set_random_axis(rand_vec, rand);
                     rands_fe_deform_vec.at(i) = rand_vec;
@@ -325,7 +317,6 @@ class Finder {
         }
         gsl_vector_float_free(w);
         gsl_vector_float_free(unit_vector);
-        gsl_matrix_float_free(rot_matrix);
     }
 
     void variate_wrapper(float en_min_global, list<Molecule*> mol_list, map<string, map<string, int>> bind, map<string, map<string, float>> params, gsl_rng * rand) {

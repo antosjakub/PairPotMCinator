@@ -10,6 +10,15 @@ void write_blank_line(ofstream file) {
     file << std::endl;
 }
 
+template <typename T>
+map<string, T> DOF_base {
+    {"translate_2D", 0},
+    {"translate_e3", 0},
+    {"rotate_3D", 0},
+    {"rotate_e3", 0},
+    {"deform", 0}
+};
+
 
 
 int main(int argc, char * argv[]) {
@@ -139,7 +148,7 @@ int main(int argc, char * argv[]) {
         for (iter_atom_count; iter_atom_count!=n_atoms_list.end(); ++iter_atom_count) {
             Molecule * mol = new Molecule(*iter_atom_count);
             load_atoms_from_xyz(file, mol, *iter_atom_count);
-            mol->pos = mol->return_center_of_mass();
+            mol->set_center_of_mass(mol->pos);
             std::cout << "pos of mol: ";
             print_gsl_vector(mol->pos);
             mol_list.push_back(mol);
@@ -384,7 +393,7 @@ int main(int argc, char * argv[]) {
                 if (log["xyz"]["stages_min_cell"]->use) write_xyz_list_surface(finder.mol_list_curr, cell, log["xyz"]["stages_min_cell"]->path, "a", string_cycle + ", stage: scatter");
                 if (log["xyz"]["stages_min_periodic"]->use) write_xyz_list_surface_periodic(cell->v1, cell->v2, finder.mol_list_curr, cell, log["xyz"]["stages_min_periodic"]->path, "a", string_cycle + ", stage: scatter");
             } else {
-                std::cout << "WARNING: you are using scatter even though a list of molecules was given as an input.";
+                std::cout << "WARNING: you are using scatter even though a list of molecules was given as an input. The molecules will be initialized randomly.";
             }
         } else {
             if (bool_molecules_list) {

@@ -13,7 +13,8 @@ By default:
 },
 ```
 
-If you want to periodically copy the given surface cell, for example, 2 times in the direction of the x-axis and 3 times in the direction of the y-axis:
+If you want increase the size of the unit cell provided by the 'path' key, one way to do that is to use the 'multiplicity' key.
+Setting it to [a,b] (where both a,b are positive integers) will periodically grow the unit cell 2 times in the direction of the x-axis and 3 times in the direction of the y-axis.
 
 ```
 "unit_cell": {
@@ -25,7 +26,7 @@ If you want to periodically copy the given surface cell, for example, 2 times in
 
 ## Molecules
 
-If you have a .xyz file for every molecule (use if you want to position the molecules randomly on the surface):
+If you have a .xyz file for every molecule:
 
 ```
 "molecules": [{
@@ -39,7 +40,7 @@ If you have a .xyz file for every molecule (use if you want to position the mole
 }],
 ```
 
-If you have a the molecules stored in one .xyz (use if you want to initialize the molecules at specific positions):
+If you have a the molecules stored in one .xyz (useful if you want to initialize the molecules at specific positions):
 
 ```
 "molecule_list": {
@@ -96,13 +97,13 @@ Parameters governing the Monte Carlo simulation:
 ## Saving results
 
 A section specifying at what level of detail to store the results.
-The .xyz files store the position of each atom of the slab, the .txt files record the energy of the slab.
+The .xyz files store the position of each atom int the slab, the .txt files record the energy of the slab.
 
-- 'cycle_min' = store the best individual from each cycle
+- 'cycle_min' = store the minimal energy (or the slab corresponding to the minimal energy) computed in each cycle
 
-- 'stage_min' = store the best individual from each stage
+- 'stage_min' = store the minimal energy (or the slab corresponding to the minimal energy) computed in each stage
 
-- 'all_min' = store every time a better individual is found
+- 'all_min' = store the minimal energy (or the slab corresponding to the minimal energy) every time more favourable energy is reached
 
 
 ```
